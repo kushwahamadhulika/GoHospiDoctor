@@ -1,0 +1,167 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.core.widget.NestedScrollView android:id="@+id/netedScroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/container"
+            android:layout_margin="40dp">
+            <TextView
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Add New User"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginBottom="20dp"/>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/doctor_name"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:hint="Doctor Name"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_doctorname"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+                    android:layout_gravity="center"
+                    android:drawablePadding="10dp"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/password"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:hint="Dept"
+
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/phone_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+
+                    android:inputType="text"
+                    android:drawablePadding="10dp"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/degress"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:hint="Degrees"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/add_degrees"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:drawablePadding="10dp"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/experience"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:hint="Experience"
+
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/add_experience"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+
+                    android:inputType="text"
+                    android:drawablePadding="10dp"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:hint="Fee"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/phn"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+                    android:layout_gravity="center"
+                    android:drawablePadding="10dp"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/add_fee"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:hint="Followup Fee"
+
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/followup_fee"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+
+                    android:inputType="text"
+                    android:drawablePadding="10dp"
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:id="@+id/sign_up"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:background="@color/colorPrimary"
+                android:text="Add Doctor"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
